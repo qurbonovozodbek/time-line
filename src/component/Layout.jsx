@@ -8,9 +8,9 @@ import ColorsTimeline from "./Timeline";
 function Layout() {
   return (
     <div className="container">
-      <div className="time-line">
+      {/* <div className="time-line">
         <ColorsTimeline/>
-      </div>
+      </div> */}
       <section>
         <h1>Habarning ko'rinishi</h1>
         <h4>Shablon</h4>

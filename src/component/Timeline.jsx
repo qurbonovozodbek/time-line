@@ -8,7 +8,42 @@ import TimelineDot from '@mui/lab/TimelineDot';
 
 export default function ColorsTimeline() {
   return (
-    <Timeline position="alternate">
+    <Timeline className='timeline' position="alternate">
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot color="secondary" />
+          <TimelineConnector color='#6b0c0c' />
+        </TimelineSeparator>
+        <TimelineContent>Secondary</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot color="secondary" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>Secondary</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot color="secondary" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>Secondary</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot color="secondary" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>Secondary</TimelineContent>
+      </TimelineItem>
+      <TimelineItem>
+        <TimelineSeparator>
+          <TimelineDot color="secondary" />
+          <TimelineConnector />
+        </TimelineSeparator>
+        <TimelineContent>Secondary</TimelineContent>
+      </TimelineItem>
       <TimelineItem>
         <TimelineSeparator>
           <TimelineDot color="secondary" />
